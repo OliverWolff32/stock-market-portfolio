@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "node-fetch": "^2.7.0",
     "numeral": "^2.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,11 +15,9 @@
     "reactstrap": "^9.2.2",
     "web-vitals": "^2.1.4"
   },
-  
-  "homepage": ".",
+  "homepage": "http://.",
   "description": "Stock Market Portfolio",
   "author": "Oliver Wolff",
-  
   "scripts": {
     "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
@@ -42,5 +41,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverWolff32/stock-market-portfolio.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverWolff32/stock-market-portfolio/issues"
   }
 }
